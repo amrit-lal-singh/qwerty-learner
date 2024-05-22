@@ -16,7 +16,7 @@ import {
   wordDictationConfigAtom,
 } from '@/store'
 import type { InfoPanelType } from '@/typings'
-import { recordOpenInfoPanelAction } from '@/utils'
+import { recordOpenInfoPanelAction } from '@/utils/mixpanel'
 import { Transition } from '@headlessui/react'
 import { useAtom, useAtomValue, useSetAtom } from 'jotai'
 import { useCallback, useContext, useEffect, useMemo } from 'react'

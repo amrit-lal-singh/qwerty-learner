@@ -1,6 +1,6 @@
 import { db } from '.'
-import { getCurrentDate, recordDataAction } from '..'
-
+import { getCurrentDate } from '..'
+import { recordDataAction } from '@/utils/mixpanel'
 export type ExportProgress = {
   totalRows?: number
   completedRows: number
